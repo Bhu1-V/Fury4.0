@@ -26,7 +26,7 @@ namespace Fury.Guns {
         private AudioSource shootingAudioSource;
         private GameObject model;
         private Camera activeCamera;
-        public float lastShootTime;
+        private float lastShootTime;
         private float initialClickTime;
         private float stopShootingTime;
 
