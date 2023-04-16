@@ -17,7 +17,7 @@ public class WeaponHandling : MonoBehaviour {
     private void Update() {
         GunSelector.activeGun.Tick(
             !IsReloading
-            && Application.isFocused && Mouse.current.leftButton.isPressed
+            && Application.isFocused && Mouse.current.leftButton.isPressed && !Helper.IsOverUI()
             && GunSelector.activeGun != null
         );
 

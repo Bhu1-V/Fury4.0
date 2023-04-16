@@ -24,12 +24,6 @@ public class PlayerLook : MonoBehaviour {
 
     public void ProcessLook(Vector2 input) {
 
-        // Lock Cursor if it isn't Locked
-        if(Cursor.lockState != CursorLockMode.Locked) {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-        }
-
         float mouseX = input.x;
         float mouseY = input.y;
 

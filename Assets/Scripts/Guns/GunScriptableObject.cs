@@ -154,6 +154,7 @@ namespace Fury.Guns {
             }
 
             if(Time.time > shootConfig.FireRate + lastShootTime && shouldShoot) {
+                Helper.LockMouse();
                 lastShootTime = Time.time;
 
                 if(ammoConfig.CurrentClipAmmo == 0) {

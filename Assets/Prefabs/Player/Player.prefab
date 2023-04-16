@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 150a94d7dc23a2c42a9731a74da49fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Camera: {fileID: 0}
+  Camera: {fileID: 5085147544535645747}
   gunParent: {fileID: 5085147543712651305}
   loadOut: {fileID: 11400000, guid: 15949d1fadd4782498cec90fbba8b69d, type: 2}
   primaryGunType: 0
