@@ -162,7 +162,7 @@ namespace Fury.Guns {
                 }
 
                 shootSystem.Play();
-                audioConfig.PlayShootingClip(shootingAudioSource, ammoConfig.CurrentClipAmmo == 1);
+                audioConfig?.PlayShootingClip(shootingAudioSource, ammoConfig.CurrentClipAmmo == 1);
 
                 Vector3 spreadAmount = shootConfig.GetSpread(Time.time - initialClickTime);
 
